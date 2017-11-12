@@ -30,7 +30,7 @@ body, html {
     overflow-x: hidden;
     max-width: 100%;
     min-width: 320px;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
 }
 body{
     width: 16rem;
@@ -61,4 +61,24 @@ img {
 
 li{
     list-style: none;
+}
+
+/*** reset mintui ***/
+.app-main{
+    .mint-swipe-indicators{
+        bottom: 2rem;
+        .mint-swipe-indicator{
+            border-radius:0;
+            height: 3px;
+            width: 10px;
+            opacity:.4;
+
+            &.is-active{
+                opacity:.6;
+            }
+        }
+    }
+    .mint-swipe-item{
+        @extend %flexbox;
+    }
 }

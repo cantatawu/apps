@@ -1,0 +1,27 @@
+
+@import "media";
+@import "settings";
+@import "footer";
+@import "grid";
+.flexbox,
+%flexbox{
+	display: flex;
+    flex-direction: row;
+	justify-content:space-between;
+    align-items: center;
+}
+.app-main{
+	min-width: 320px;
+}
+.full{
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.modal-box{
+	position: fixed;
+	@extend .full;
+    align-items: flex-end;
+    background: rgba(0, 0, 0, 0.7);
+}

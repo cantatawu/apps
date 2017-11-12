@@ -1,0 +1,56 @@
+.app-footer-component{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	text-align: center;
+    z-index: 9999;
+	.logo-bg{
+		position: absolute;
+		border: 1px solid $main-border-color;
+	    top: -1.5rem;
+	    height: 5rem;
+	    width: 5rem;
+	    border-radius: 50%;
+	    z-index: -1;
+	    left: 50%;
+	    margin-left: -2.5rem;
+	    background: #fff;
+	}
+	.footer-body{
+		height: $footerHight;
+		border-top:1px solid $main-border-color;
+		padding: 0 .5rem;
+    	background: #fff;
+	}
+	a{
+		color: $font-color;
+		&.on{
+			color: $main-color;
+		}
+		.iconfont{
+			font-size: 22px;
+		}
+		div{
+			font-size: 10px;
+		}
+		.home{
+    		position: relative;
+		    width: 5rem;
+		    border-radius: 50%;
+		    margin-top: -1.1rem;
+		    align-items: center;
+		    background: #fff;
+		    overflow: hidden;
+			.logo{
+			    background: url(../static/imgs/footer/logo.png) no-repeat #fff;
+		        height: 5rem;
+			    width: 4rem;
+			    margin: 0 auto;
+			    background-size: 88%;
+			    background-position: 50%;
+			    z-index: 99;
+			}
+		}
+	}
+}

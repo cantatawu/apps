@@ -1,17 +1,5 @@
 <template>
-  <div id="app" class="app-index-page">
-    <h1>{{ msg }}</h1>
+  <div id="app" class="app-main">
+    <router-view></router-view>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome'
-    }
-  }
-}
-</script>
-
