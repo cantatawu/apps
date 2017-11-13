@@ -3,16 +3,16 @@
   	<div class="cover">
 		<mt-swipe :auto="4000">
 			<mt-swipe-item>
-				<img src="../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 		</mt-swipe>
   	</div>
@@ -28,7 +28,7 @@
 	  			<i class="iconfont icon-daohang"></i>
 	  			<div>一键导航</div>
 	  		</a>
-	  		<a class="" href="javascript:;">
+	  		<a class="" href="#/message">
 	  			<i class="iconfont icon-liuyan"></i>
 	  			<div>咨询留言</div>
 	  		</a>

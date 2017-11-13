@@ -11,8 +11,6 @@ import professor from 'pages/professor.vue';
 import album from 'pages/view/album.vue';
 import video from 'pages/view/video.vue';
 
-import addr from 'pages/addr.vue';
-
 const routes = [{
 	path: '/',
 	name : 'index',

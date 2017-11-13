@@ -1,8 +1,9 @@
-
 @import "media";
 @import "settings";
 @import "footer";
 @import "grid";
+@import "forms";
+
 .flexbox,
 %flexbox{
 	display: flex;
@@ -24,4 +25,19 @@
 	@extend .full;
     align-items: flex-end;
     background: rgba(0, 0, 0, 0.7);
+}
+
+.border-top:before{
+   content: " ";
+   position: absolute;
+   left: 0;
+   top: 0;
+   right: 0;
+   height: 1px;
+   border-top: 1px solid #D9D9D9;
+   color: #D9D9D9;
+   -webkit-transform-origin: 0 0;
+   transform-origin: 0 0;
+   -webkit-transform: scaleY(0.5);
+   transform: scaleY(0.5);
 }
