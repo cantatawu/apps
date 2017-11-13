@@ -7,6 +7,11 @@ import 'assets/sass/main.scss'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
+router.beforeEach((to, from, next) => {	
+	if (meta && meta.title) document.title = meta.title;
+	next();
+})
+
 new Vue({
 	el: '#app',
 	router,

@@ -1,0 +1,88 @@
+.app-index-page{
+	h1{
+		font-size: 26px;
+	}
+	.cover{
+	    width: 100%;
+	    position: fixed;
+	    top: 0;
+	    bottom: 3.4rem;
+	    left: 0;
+	    right: 0;
+	}
+	.menu{
+		display: none;
+		&.on{
+			display: block;
+			a{
+				transform: translate(0,0);
+	    		animation: showmenu  0.446s ease;
+		    	animation-fill-mode:both;
+	    		opacity: 1;
+	    		&:nth-child(1){
+	    			animation-delay: .4s;
+	    		};
+	    		&:nth-child(2){
+	    			animation-delay: .3s;
+	    		};
+	    		&:nth-child(3){
+	    			animation-delay: .2s;
+	    		};
+	    		&:nth-child(4){
+	    			animation-delay: .1s;
+	    		};
+			}
+		}
+    	margin: 4rem 0;
+		width: 100%;
+		text-align: center;
+		a{
+		    display: block;
+		    font-size: 1.2rem;
+		    color: #fff;
+		    margin: 2rem 0;
+		    line-height: 1.5;
+		    transform: translate(0,30px);
+		    animation-fill-mode:both;
+	    	opacity: 0;
+		    .iconfont{
+		    	font-size: 3rem;
+		    }
+		}
+	}
+
+	@keyframes showmenu {
+	    0% {
+	    	opacity: 0;
+		    transform: translate(0,30px);
+	    }
+	    100% {
+		    transform: translate(0,0);
+	    	opacity: 1;
+	    }
+	}
+
+	.load-enter-active{
+	    animation: load-in .5s;
+	}
+	.load-leave-active {
+	    animation: load-out .5s;
+	}
+
+	@keyframes load-in {
+	    0% {
+	        opacity: 0
+	    }
+	    100% {
+	        opacity: 1
+	    }
+	}
+	@keyframes load-out {
+	    0% {
+	        opacity: 1
+	    }
+	    100% {
+	        opacity: 0
+	    }
+	}
+}
