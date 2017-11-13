@@ -30,7 +30,7 @@ const routes = [{
 		name : 'index-message',
 		component: message,
 	    meta: {
-	        title: ''
+	        title: '咨询留言'
 	    }
 	},{
 		path: '/navigation',
@@ -44,7 +44,7 @@ const routes = [{
 		name : 'brand-about',
 		component: about,
 	    meta: {
-	        title: ''
+	        title: '关于美媛'
 	    }
 	},{
 		path: '/originator',

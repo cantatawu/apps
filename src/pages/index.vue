@@ -3,16 +3,16 @@
   	<div class="cover">
 		<mt-swipe :auto="4000">
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../assets/static/imgs/large.jpg" />
 			</mt-swipe-item>
 		</mt-swipe>
   	</div>
@@ -20,21 +20,21 @@
   	<transition name="load">
   	<div v-show="isModal" @click="closeModal()" class="modal-box flexbox">
 	  	<div class="menu" :class="{ 'on' : menuIndex == 0}">
-	  		<a class="" href="tel:13000000000">
+	  		<a class="" href="javascript:;">
 	  			<i class="iconfont icon-dianhua"></i>
 	  			<div>一键拨号</div>
 	  		</a>
-	  		<a class="" href="#/navigation">
+	  		<a class="" href="javascript:;">
 	  			<i class="iconfont icon-daohang"></i>
 	  			<div>一键导航</div>
 	  		</a>
-	  		<a class="" href="#/message">
+	  		<a class="" href="javascript:;">
 	  			<i class="iconfont icon-liuyan"></i>
 	  			<div>咨询留言</div>
 	  		</a>
 	  	</div>
 	  	<div class="menu" :class="{ 'on' : menuIndex == 1}">
-	  		<a class="" href="#/about">
+	  		<a class="" href="javascript:;">
 	  			<i class="iconfont icon-guanyu"></i>
 	  			<div>关于美媛</div>
 	  		</a>
@@ -55,7 +55,6 @@
 	  	</div>
   	</div>
   	</transition>
-  	
   </div>
 </template>
 <script>

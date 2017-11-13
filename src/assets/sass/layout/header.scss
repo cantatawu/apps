@@ -1,0 +1,12 @@
+.app-header-component{
+	position: fixed;
+	@extend .full;
+	height: $footerHight;
+	border-bottom: 1px solid $border-color;
+	.btn{
+		height: $footerHight;
+		line-height: $footerHight;
+		text-align: center;
+		width:3rem;
+	}
+}

@@ -1,5 +1,7 @@
 @import "media";
 @import "settings";
+@import "header";
+@import "view";
 @import "footer";
 @import "grid";
 @import "forms";
@@ -40,4 +42,10 @@
    transform-origin: 0 0;
    -webkit-transform: scaleY(0.5);
    transform: scaleY(0.5);
+}
+.no-border-top{
+    border-top: none !important;
+}
+.no-border-bottom{
+    border-bottom: none !important;
 }

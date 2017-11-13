@@ -22,6 +22,7 @@ body, button, input, select, textarea {
     font-family: PingFangSC-Regular, 'helvetica neue', 'hiragino sans gb', tahoma, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
     text-autospace: ideograph-alpha ideograph-numeric ideograph-parenthesis;
     outline: 0;
+    color: #333;
 }
 
 body, html {
@@ -33,7 +34,6 @@ body, html {
     -webkit-overflow-scrolling: touch;
 }
 body{
-    width: 16rem;
     margin: 0 auto;
 }
 
