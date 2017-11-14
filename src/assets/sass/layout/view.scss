@@ -1,4 +1,9 @@
 .app-view-component{
 	position: relative;
 	margin-top: $footerHight;
+	&.gary-bg{
+		widows: 100vw;
+	    height: 100vh;
+	    background: #f9f9f9;
+	}
 }

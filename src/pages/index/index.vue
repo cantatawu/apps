@@ -3,16 +3,13 @@
   	<div class="cover">
 		<mt-swipe :auto="4000">
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/index/1.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/index/2.jpg" />
 			</mt-swipe-item>
 			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
-			</mt-swipe-item>
-			<mt-swipe-item>
-				<img src="../../assets/static/imgs/large.jpg" />
+				<img src="../../assets/static/imgs/index/3.jpg" />
 			</mt-swipe-item>
 		</mt-swipe>
   	</div>
