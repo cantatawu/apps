@@ -56,7 +56,6 @@ a.link {
 }
 
 img {
-    max-width: 100%;
 }
 
 li{
@@ -79,6 +78,12 @@ li{
         }
     }
     .mint-swipe-item{
+        overflow: hidden;
+        text-align: center;
         @extend %flexbox;
+        img{
+            height: 100%;
+            width:auto;
+        }
     }
 }

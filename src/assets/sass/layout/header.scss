@@ -1,5 +1,5 @@
 .app-header-component{
-	position: fixed;
+	position: absolute;
 	@extend .full;
 	height: $footerHight;
 	border-bottom: 1px solid $border-color;

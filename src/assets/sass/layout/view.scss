@@ -1,8 +1,12 @@
 .app-view-component{
-	position: relative;
-	margin-top: $footerHight;
+    position: absolute;
+    top: $footerHight;
+    padding-bottom: $footerHight;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
 	&.gary-bg{
-		widows: 100vw;
+		width: 100vw;
 	    height: 100vh;
 	    background: #f9f9f9;
 	}

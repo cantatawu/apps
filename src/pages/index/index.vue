@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app-index-page">
   	<div class="cover">
-		<mt-swipe :auto="4000">
+		<mt-swipe :auto="false">
 			<mt-swipe-item>
 				<img src="../../assets/static/imgs/index/1.jpg" />
 			</mt-swipe-item>
@@ -35,7 +35,7 @@
 	  			<i class="iconfont icon-guanyu"></i>
 	  			<div>关于美媛</div>
 	  		</a>
-	  		<a class="" href="javascript:;">
+	  		<a class="" href="#/originator">
 	  			<i class="iconfont icon-chuangshiren"></i>
 	  			<div>创始人介绍</div>
 	  		</a>

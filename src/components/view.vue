@@ -1,6 +1,6 @@
 <template>
-  <article class="app-view-component">
+  <div class="app-view-component">
     <slot></slot>
-  </article>
+  </div>
 </template>
 

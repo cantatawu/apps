@@ -51,28 +51,28 @@ const routes = [{
 		name : 'brand-originator',
 		component: originator,
 	    meta: {
-	        title: ''
+	        title: '创始人介绍'
 	    }
 	},{
 		path: '/professor',
 		name : 'professor',
 		component: professor,
 	    meta: {
-	        title: ''
+	        title: '专家风采'
 	    }
 	},{
 		path: '/album',
 		name : 'view-album',
 		component: album,
 	    meta: {
-	        title: ''
+	        title: '微相册'
 	    }
 	},{
 		path: '/video',
 		name : 'view-video',
 		component: video,
 	    meta: {
-	        title: ''
+	        title: '微视频'
 	    }
 	}]
 
