@@ -1,3 +1,15 @@
 .app-video-page{
-	
+	.app-view-component{
+		padding-left:.5rem;
+		padding-right:.5rem;
+		section{
+		    padding: .5rem;
+		    border-radius: 3px;
+		    margin: 1rem 0;
+		    background: #fff;
+		    h4{
+    			line-height: 1.6;
+		    }
+		}
+	}
 }

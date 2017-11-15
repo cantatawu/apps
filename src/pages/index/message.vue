@@ -10,7 +10,7 @@
           <textarea rows="5" @keyup="checkData" v-model="formData.userMessage" placeholder="请输入留言" class="form-el"></textarea>
         </div>
         <div class="form-row">
-          <a class="button main-color" :class="isOn" href="javascript:;">提交</a>
+          <a class="button" :class="isOn" href="javascript:;">提交</a>
         </div>
       </div>
     </eview>

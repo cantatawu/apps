@@ -41,11 +41,11 @@
 	  		</a>
 	  	</div>
 	  	<div class="menu" :class="{ 'on' : menuIndex == 4}">
-	  		<a class="" href="javascript:;">
+	  		<a class="" href="#/video">
 	  			<i class="iconfont icon-shipin"></i>
 	  			<div>微视频</div>
 	  		</a>
-	  		<a class="" href="javascript:;">
+	  		<a class="" href="#/album">
 	  			<i class="iconfont icon-xiangce"></i>
 	  			<div>微相册</div>
 	  		</a>

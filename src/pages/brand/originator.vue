@@ -4,7 +4,7 @@
     <eview>
       <div class="ori-info h-padding15">
         <div class="head">
-         <img src="../../assets/static/imgs/originator/1.png" />
+         <img src="../../assets/static/imgs/originator/ori_1.png" />
         </div>
         <div class="text-center desc">
           <h2 class="main-color">邓  妍</h2>
@@ -24,7 +24,7 @@
         </section>
         <section>
          <p class="img">
-           <img src="../../assets/static/imgs/originator/2.png" />
+           <img src="../../assets/static/imgs/originator/ori_2.png" />
          </p>
         </section>
         <section>
@@ -45,7 +45,7 @@
         </section>
         <section>
          <p class="img">
-           <img src="../../assets/static/imgs/originator/3.png" />
+           <img src="../../assets/static/imgs/originator/ori_3.png" />
          </p>
         </section>
         <section>
@@ -64,7 +64,7 @@
           <p>也正是这样的使命感，驱动邓妍以及她美媛国际的小伙伴们，不断前行。</p>
         </section>
         <section>
-         <p class="img">
+         <p class="img qr">
            <img src="../../assets/static/imgs/originator/qrcode.png" />
          </p>
         <div class="text-center desc">
