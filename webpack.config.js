@@ -10,7 +10,7 @@ let config = function (env) {
     entry: './src/main.js',
     output: {
       path: path.resolve(__dirname, './app/'),
-      publicPath: './app/',
+      publicPath: './',
       filename: 'js/[hash].[name].js',
     },
     module: {
