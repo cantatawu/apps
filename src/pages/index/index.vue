@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app-index-page">
   	<div class="cover">
-		<mt-swipe :auto="false">
+		<mt-swipe>
 			<mt-swipe-item>
 				<img src="../../assets/static/imgs/index/1.jpg" />
 			</mt-swipe-item>
