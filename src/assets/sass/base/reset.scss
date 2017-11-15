@@ -83,7 +83,7 @@ li{
         @extend %flexbox;
         img{
             height: 100%;
-            width:auto;
+            min-width:100%;
         }
     }
 }
