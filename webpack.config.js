@@ -11,7 +11,7 @@ let config = function (env) {
     output: {
       path: path.resolve(__dirname, './app/'),
       publicPath: './',
-      filename: 'js/[hash].[name].js',
+      filename: 'js/[hash].min.js',
     },
     module: {
       rules: [

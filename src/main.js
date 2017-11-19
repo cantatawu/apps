@@ -10,9 +10,9 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 router.beforeEach((to, from, next) => {
-	let { meta , path } = to;
-	if (meta && meta.title) document.title = meta.title;
-	next();
+	let { meta , path } = to
+	if (meta && meta.title) document.title = meta.title
+	next()
 })
 
 new Vue({
