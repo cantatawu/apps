@@ -60,6 +60,8 @@
 import efooter from 'components/footer.vue'
 import Vue from 'vue'
 import { Swipe, SwipeItem } from 'mint-ui';
+import api from 'api'
+
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 
@@ -72,7 +74,7 @@ export default {
   },components : {
   	efooter
   },mounted(){
-
+  	this.getBanner()
   },methods : {
   	getMenuIndex (index){
   		if(2 == index || 3 == index){
@@ -89,6 +91,18 @@ export default {
   	closeModal(){
   		this.isModal = false
   		this.menuIndex = -1
+  		console.log(this.menuIndex )
+  	},
+  	getBanner(){
+
+  		this.$ajax.get(api.album.list).then(res => {
+
+  			console.log(res.data)
+
+  		},res => {
+
+  			console.log(res)
+  		})
   	}
   }
 }

@@ -50,10 +50,6 @@ let config = function (env) {
           exclude: /node_modules/
         },
         {
-          test: /vue-preview.src.*?js$/,
-          loader: 'babel-loader'
-        },
-        {
           test: /\.(png|jpg|gif|svg)$/,
           loader: 'file-loader',
           options: {
@@ -97,6 +93,7 @@ let config = function (env) {
         'src': path.resolve(__dirname, 'src'),
         'assets': path.resolve(__dirname, 'src/assets'),
         'pages': path.resolve(__dirname, 'src/pages'),
+        'api': path.resolve(__dirname, 'src/api'),
         'commons': path.resolve(__dirname, 'src/commons'),
       }
     },
