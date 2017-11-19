@@ -31,7 +31,7 @@ let config = function (env) {
         },
         {
           test: /\.s[ca]ss$/,
-          loader: ['style-loader', 'css-loader?importLoaders=1','sass-loader']
+          loader: ['style-loader', 'css-loader?importLoaders=1','postcss-loader','sass-loader']
         },
         {
           test: /\.css$/,
@@ -48,6 +48,10 @@ let config = function (env) {
           test: /\.js$/,
           loader: 'babel-loader',
           exclude: /node_modules/
+        },
+        {
+          test: /vue-preview.src.*?js$/,
+          loader: 'babel-loader'
         },
         {
           test: /\.(png|jpg|gif|svg)$/,
