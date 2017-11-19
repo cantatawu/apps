@@ -91,7 +91,6 @@ export default {
   	closeModal(){
   		this.isModal = false
   		this.menuIndex = -1
-  		console.log(this.menuIndex )
   	},
   	getBanner(){
 

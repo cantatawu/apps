@@ -19,6 +19,5 @@ new Vue({
 	el: '#app',
 	router,
 	render: h => h(App),
-	mounted() {
-	}
+	mounted() {}
 })
