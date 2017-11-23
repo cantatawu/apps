@@ -33,6 +33,10 @@
 	  	<div class="menu" :class="{ 'on' : menuIndex == 1}">
 	  		<a class="" href="#/about">
 	  			<i class="iconfont icon-guanyu"></i>
+	  			<div>美媛动态</div>
+	  		</a>
+	  		<a class="" href="#/about">
+	  			<i class="iconfont icon-guanyu"></i>
 	  			<div>关于美媛</div>
 	  		</a>
 	  		<a class="" href="#/originator">

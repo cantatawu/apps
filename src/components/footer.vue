@@ -28,7 +28,7 @@ export default {
     	isActive : -1,
     	navs : [
     		{ text : '联系美媛',link : '' ,icon : 'icon-lianxiren'},
-    		{ text : '品牌故事',link : '' ,icon : 'icon-huangguan'},
+    		{ text : '关于美媛',link : '' ,icon : 'icon-huangguan'},
     		{ text : '',link : ''},
     		{ text : '专家风采',link : '' ,icon : 'icon-zhuanjia'},
     		{ text : '美媛微看',link : '' ,icon : 'icon-collections'}

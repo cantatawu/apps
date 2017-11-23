@@ -8,6 +8,7 @@ import 'assets/sass/main.scss'
 
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+global.MintUI = MintUI;
 
 router.beforeEach((to, from, next) => {
 	let { meta , path } = to
