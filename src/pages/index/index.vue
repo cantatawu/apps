@@ -49,7 +49,7 @@
 	  			<i class="iconfont icon-shipin"></i>
 	  			<div>微视频</div>
 	  		</a>
-	  		<a class="" href="#/album">
+	  		<a class="" href="#/album-list">
 	  			<i class="iconfont icon-xiangce"></i>
 	  			<div>微相册</div>
 	  		</a>

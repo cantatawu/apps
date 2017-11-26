@@ -8,6 +8,7 @@ import navigation from 'pages/index/navigation.vue';
 import originator from 'pages/brand/originator.vue';
 import about from 'pages/brand/about.vue';
 import professor from 'pages/professor.vue';
+import album_list from 'pages/view/album-list.vue';
 import album from 'pages/view/album.vue';
 import video from 'pages/view/video.vue';
 
@@ -61,9 +62,16 @@ const routes = [{
 	        title: '专家风采'
 	    }
 	},{
-		path: '/album',
+		path: '/album/:id',
 		name : 'view-album',
 		component: album,
+	    meta: {
+	        title: '微相册'
+	    }
+	},,{
+		path: '/album-list',
+		name : 'view-album-list',
+		component: album_list,
 	    meta: {
 	        title: '微相册'
 	    }
