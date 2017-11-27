@@ -32,7 +32,7 @@
 	  	</div>
 	  	<div class="menu" :class="{ 'on' : menuIndex == 1}">
 	  		<a class="" href="#/about">
-	  			<i class="iconfont icon-guanyu"></i>
+	  			<i class="iconfont icon-dongtai"></i>
 	  			<div>美媛动态</div>
 	  		</a>
 	  		<a class="" href="#/about">
@@ -81,10 +81,12 @@ export default {
   	this.getBanner()
   },methods : {
   	getMenuIndex (index){
-  		if(2 == index || 3 == index){
+  		console.log(index)
+  		if(2 == index){
   			this.isModal = false
   			return
   		}
+  		if(3 == index)this.$router.push('/professor')
   		if(this.menuIndex == index){
   			this.isModal = !this.isModal
   		}else{

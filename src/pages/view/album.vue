@@ -5,7 +5,7 @@
       <div class="albums-body box">
         <div v-for="img in imgs" class="albums-item">
           <div class="img-box">
-            <img v-for="img in imgs" :src="img" v-preview="img" />
+            <img :src="img" v-preview="img" />
           </div>
         </div>
       </div>

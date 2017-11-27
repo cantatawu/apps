@@ -65,7 +65,6 @@ let config = function (env) {
         }
       }),
       new webpack.optimize.UglifyJsPlugin({
-        sourceMap: true,
         compress: {
           warnings: false
         }

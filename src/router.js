@@ -7,7 +7,8 @@ import message from 'pages/index/message.vue';
 import navigation from 'pages/index/navigation.vue';
 import originator from 'pages/brand/originator.vue';
 import about from 'pages/brand/about.vue';
-import professor from 'pages/professor.vue';
+import professor from 'pages/professor/professor.vue';
+import professor_detail from 'pages/professor/detail.vue';
 import album_list from 'pages/view/album-list.vue';
 import album from 'pages/view/album.vue';
 import video from 'pages/view/video.vue';
@@ -58,6 +59,13 @@ const routes = [{
 		path: '/professor',
 		name : 'professor',
 		component: professor,
+	    meta: {
+	        title: '专家风采'
+	    }
+	},{
+		path: '/professor/:id',
+		name : 'professor-detail',
+		component: professor_detail,
 	    meta: {
 	        title: '专家风采'
 	    }
