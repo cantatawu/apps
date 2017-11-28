@@ -3,20 +3,19 @@
     <a href="javascript:;" @click="btnLeft()" class="header-left btn" slot="head-left">
       <i class="iconfont icon-fanhui"></i>
     </a>
-    <h1 class="header-h1">{{pageTitle}}</h1>
+    <h1 class="header-h1" v-text="">{{pageTitle}}</h1>
     <div class="header-right btn"><slot name="head-right"></slot></div>
   </header>
 </template>
 <script>
 
 export default {
-  poprs:['title','isStopBack'],
+  props:['title','isStopBack'],
   data () {
     return {
-      pageTitle : ''
+      pageTitle : this.title || document.title
     }
   },mounted(){
-    this.pageTitle = this.title || document.title
   },methods : {
     btnLeft(){
       if(this.isStopBack)return;

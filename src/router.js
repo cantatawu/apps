@@ -67,7 +67,7 @@ const routes = [{
 		name : 'professor-detail',
 		component: professor_detail,
 	    meta: {
-	        title: '专家风采'
+	        title: '专家详情'
 	    }
 	},{
 		path: '/album/:id',

@@ -5,6 +5,7 @@ import axios from 'axios'
 Vue.prototype.$ajax = axios
 
 import 'assets/sass/main.scss'
+import 'assets/static/fonticon/iconfont.css'
 
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
